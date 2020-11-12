@@ -15,9 +15,12 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
+// static files
+app.use(express.static(__dirname + '/public'));
+
 // Routes
 app.get('/', (req, res) => {
-    res.send('This is my Homepage');
+    res.render('index');
 });
 
 app.listen(PORT, () => {
