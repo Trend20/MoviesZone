@@ -7,3 +7,54 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #444;
+}
+
+.logo {
+    width: 30%;
+    color: #e2dcdc;
+}
+
+nav {
+    display: flex;
+    width: 50%;
+    height: auto;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+}
+
+nav ul li {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: #e2dcdc;
+}
+
+nav ul li a {
+    display: flex;
+    color: #e2dcdc;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #e2dcdc;
+    text-decoration: none;
+}
