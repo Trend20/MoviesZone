@@ -125,4 +125,11 @@ nav ul li a:hover {
 .hero-video{
     margin-left: 80px;
 }
+
+#span{
+    margin: auto;
+    border: 1px solid #000;
+    margin-top: 20px;
+    width: 30%;
+}
 /* end of hero section styles */
