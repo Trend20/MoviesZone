@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    background-image: url(/public/img/back.webp);
 }
 
 .container {
