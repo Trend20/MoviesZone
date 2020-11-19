@@ -6,7 +6,10 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    background-image: url(/public/img/back.webp);
+    background-image: url('/img/dark.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff !important;
 }
 
 .container {
@@ -93,7 +96,7 @@ nav ul li a:hover {
 /* end form styles */
 
 /* hero section styles */
-.hero{
+#first-hero{
     display: flex;
     margin-top: 150px;
     width: 100%;
@@ -102,24 +105,50 @@ nav ul li a:hover {
     align-items: center;
 }
 
-.hero-text{
-    width: 50%;
+.second-container{
+    display: flex;
+    margin-top: 150px;
+}
+
+#second-hero{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.firsthero-text{
+    width: 60%;
     display: flex;
     flex-direction: column;
     height: auto;
 }
 
-.hero-text h1{
+.secondhero-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-left: 50px;
+}
+
+.firsthero-text h1{
     width: 100%;
 }
 
-.hero-text p{
-    width: 80%;
+.firsthero-text p{
+    width: 90%;
     line-height: 1.5;
 }
 
-.hero-text button{
+.btn-start{
+    width: 40%;
+    padding: 20px;
+}
+
+.btn-download{
     width: 30%;
+    padding: 20px;
 }
 
 .hero-video{
