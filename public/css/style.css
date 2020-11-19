@@ -16,6 +16,7 @@ body {
     display: flex;
     width: 100%;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 /* header-styles */
@@ -25,10 +26,19 @@ header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    align-items: center;
     padding: 10px;
     background: #000;
     position: fixed;
     z-index: 99;
+}
+
+#toggle{
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    font-size: 2rem;
+    visibility: hidden;
 }
 
 .logo {
@@ -46,6 +56,7 @@ nav {
 nav ul {
     display: flex;
     width: 100%;
+    align-items: center;
 }
 
 nav ul li {
@@ -60,12 +71,14 @@ nav ul li a {
     display: flex;
     color: #e2dcdc;
     text-decoration: none;
+    align-items: center;
 }
 
 nav ul li a:hover {
     color: #e2dcdc;
     text-decoration: none;
 }
+/* end of header styles */
 
 /* form styles */
 
@@ -84,7 +97,7 @@ nav ul li a:hover {
 
 .form-control{
     width: 100%;
-    padding: 20px;
+    padding: 15px;
     height: auto;
 }
 
@@ -93,7 +106,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 23px;
+    padding: 18px;
     height: auto;
     cursor: pointer;
 }
@@ -135,7 +148,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     height: auto;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .firsthero-text h1{
@@ -151,6 +164,16 @@ nav ul li a:hover {
     width: 40%;
     padding: 20px;
 }
+
+.secondhero-text h1{
+    width: 100%;
+}
+
+.secondhero-text p{
+    width: 90%;
+    line-height: 1.5;
+}
+
 
 .btn-download{
     width: 30%;
@@ -234,6 +257,253 @@ nav ul li a:hover {
 /* end of footer styles */
 
 
+
+
+@media(min-width:321px) and (max-width: 480px){
+    /* header-styles */
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding: 10px;
+    background: #000;
+    position: fixed;
+    z-index: 99;
+}
+
+#toggle{
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    font-size: 2rem;
+    visibility: visible;
+}
+
+.logo {
+    width: 20%;
+    margin-left: 5px;
+    color: #e2dcdc;
+}
+
+nav {
+    display: flex;
+    width: 60%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+nav ul li {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: #e2dcdc;
+}
+
+nav ul li a {
+    display: flex;
+    color: #e2dcdc;
+    text-decoration: none;
+    align-items: center;
+}
+
+nav ul li a:hover {
+    color: #e2dcdc;
+    text-decoration: none;
+}
+
+* form styles */
+
+#form{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.form-group{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control{
+    width: 100%;
+    padding: 15px;
+    height: auto;
+}
+
+.form-group i{
+    border: 1px solid #c0baba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* end form styles */
+
+/* hero section styles */
+#first-hero{
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.second-container{
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+}
+
+#second-hero{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.firsthero-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.secondhero-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-left: 50px;
+}
+
+.firsthero-text h1{
+    width: 100%;
+}
+
+.firsthero-text p{
+    width: 90%;
+    line-height: 1.5;
+}
+
+.btn-start{
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.secondhero-text h1{
+    width: 95%;
+}
+
+.secondhero-text p{
+    width: 90%;
+    line-height: 1.5;
+}
+
+.btn-download{
+    width: 30%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-video{
+    margin-left: 80px;
+}
+
+#span{
+    margin: auto;
+    border: 1px solid #ffff;
+    margin-top: 20px;
+    width: 30%;
+}
+
+/* end of hero section styles */
+
+
+/* footer styles */
+#footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.footer-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.logo{
+    margin-left: 80px;
+    width: 20%;
+}
+
+
+.footer-contents ul{
+    margin-right: 80px;
+    display: flex;
+    width: 50%;
+}
+
+.footer-contents ul li{
+    display: flex;
+    width: 100%;
+}
+
+.social-icons{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.social-icons ul{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.social-icons ul li,
+.social-icons ul li i{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+/* end of footer styles */
+
+}
 /* responsiveness  */
 
 /* end of mobile responsive code */
