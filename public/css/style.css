@@ -233,9 +233,13 @@ nav ul li a:hover {
     width: 50%;
 }
 
-.footer-contents ul li{
+.footer-contents ul li,
+.footer-contents ul li a{
     display: flex;
     width: 100%;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .social-icons{
@@ -260,6 +264,7 @@ nav ul li a:hover {
     display: flex;
     margin: auto;
     padding: 10px;
+    font-size: 2rem;
 }
 /* end of footer styles */
 
