@@ -1,3 +1,5 @@
+// adding the navigation toggle functionality
+
 const toggleBar = document.getElementById('toggle');
 const searchForm = document.getElementById('form');
 toggleBar.addEventListener('click', showNav);
@@ -14,3 +16,7 @@ function showNav() {
     }
 
 }
+
+// end of navigation toggle functionality
+
+

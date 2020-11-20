@@ -19,9 +19,29 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/public'));
 
 // Routes
+
+// HOME ROUTE
 app.get('/', (req, res) => {
     res.render('index');
 });
+
+
+// ACCOUNTS ROUTE
+app.get('/accounts', (req, res) => {
+    res.render('accounts');
+});
+
+// ABOUT ROUTE
+app.get('/about', (req, res) => {
+    res.render('about');
+});
+
+// MOVIES ROUTE
+app.get('/movies', (req, res) => {
+    res.render('movies');
+});
+
+// end of routes
 
 app.listen(PORT, () => {
     console.log(`The server is running on port ${PORT}`);
