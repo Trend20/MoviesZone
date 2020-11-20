@@ -104,7 +104,7 @@ nav ul li a:hover {
 
 .form-control{
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     height: auto;
 }
 
@@ -113,9 +113,11 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 18px;
+    padding: 15px;
     height: auto;
     cursor: pointer;
+    background: #fff;
+    color: #000;
 }
 
 /* end form styles */
@@ -352,7 +354,7 @@ nav ul li a:hover {
 
 .form-control{
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     height: auto;
 }
 
@@ -361,9 +363,11 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 18px;
+    padding: 15px;
     height: auto;
     cursor: pointer;
+    background: #fff;
+    color: #000;
 }
 
 /* end form styles */
@@ -633,7 +637,7 @@ nav ul li a:hover {
 
 .form-control{
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     height: auto;
 }
 
@@ -642,9 +646,11 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 18px;
+    padding: 15px;
     height: auto;
     cursor: pointer;
+    background: #fff;
+    color: #000;
 }
 
 /* end form styles */
@@ -912,7 +918,7 @@ nav ul li a:hover {
 
 .form-control{
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     height: auto;
 }
 
@@ -921,9 +927,11 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 18px;
+    padding: 15px;
     height: auto;
     cursor: pointer;
+    background: #fff;
+    color: #000;
 }
 
 /* end form styles */
@@ -1191,7 +1199,7 @@ nav ul li a:hover {
 
 .form-control{
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     height: auto;
 }
 
@@ -1200,9 +1208,11 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 18px;
+    padding: 15px;
     height: auto;
     cursor: pointer;
+    background: #fff;
+    color: #000;
 }
 
 /* end form styles */
