@@ -1,0 +1,63 @@
+@media(max-width:320px){
+    #accounts{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #login{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #register{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+
+@media(min-width:321px) and (max-width: 480px){
+    #accounts{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #login{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #register{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media(min-width:481px) and (max-width: 767px){
+    #accounts{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #login{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #register{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+    }
+}
