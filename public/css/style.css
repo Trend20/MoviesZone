@@ -304,17 +304,24 @@ header {
 
 nav {
     display: flex;
-    width: 60%;
+    width: 100%;
     height: auto;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: absolute;
+    top: 85%;
+    left: 0;
+    background: #000;
+    visibility: hidden;
 }
 
 nav ul {
     display: flex;
     width: 100%;
     align-items: center;
+    flex-direction: column;
+    margin-left: 23px;
 }
 
 nav ul li {
@@ -342,7 +349,7 @@ nav ul li a:hover {
 #form{
     display: flex;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .form-group{
@@ -586,11 +593,15 @@ header {
 
 nav {
     display: flex;
-    width: 60%;
+    width: 100%;
     height: auto;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: absolute;
+    top: 85%;
+    left: 0;
+    background: #000;
     visibility: hidden;
 }
 
@@ -598,6 +609,8 @@ nav ul {
     display: flex;
     width: 100%;
     align-items: center;
+    flex-direction: column;
+    margin-left: 23px;
 }
 
 nav ul li {
@@ -625,7 +638,7 @@ nav ul li a:hover {
 #form{
     display: flex;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .form-group{
@@ -868,17 +881,24 @@ header {
 
 nav {
     display: flex;
-    width: 60%;
+    width: 100%;
     height: auto;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: absolute;
+    top: 85%;
+    left: 0;
+    background: #000;
+    visibility: hidden;
 }
 
 nav ul {
     display: flex;
     width: 100%;
     align-items: center;
+    flex-direction: column;
+    margin-left: 23px;
 }
 
 nav ul li {
@@ -906,7 +926,7 @@ nav ul li a:hover {
 #form{
     display: flex;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .form-group{
@@ -1149,19 +1169,25 @@ header {
 
 nav {
     display: flex;
-    width: 60%;
+    width: 100%;
     height: auto;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: absolute;
+    top: 85%;
+    left: 0;
+    background: #000;
+    visibility: hidden;
 }
 
 nav ul {
     display: flex;
     width: 100%;
     align-items: center;
+    flex-direction: column;
+    margin-left: 23px;
 }
-
 nav ul li {
     display: flex;
     width: 100%;
@@ -1187,7 +1213,7 @@ nav ul li a:hover {
 #form{
     display: flex;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .form-group{
