@@ -17,16 +17,14 @@
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="/css/accounts.css">
-
 </head>
 <body>
-   
-
+<h3 class="text-primary text-center mt-5">Welcome and Create your free account.</h3>
     <div class="container p-5" id="accounts">
         <div class="row mt-3">
             <div class="col-sm-5 bg-light border rounded py-3">
                 <h2 class="text-center">Login</h2>
-                <form action="" method="POST">
+                <form action="/" method="GET">
                     <div class="form-group">
                         <label for="_email">Email</label>
                         <input type="text" name="user_email" id="_email" class="form-control" placeholder="Email" rnodeequired>
@@ -48,7 +46,7 @@
             <div class="col-sm-6 bg-light rounded border py-3 offset-sm-1">
                 <h2 class="text-center">Register</h2>
 
-                <form action="/register" method="POST" novalidate>
+                <form action="/accounts" method="GET" novalidate>
                     <div class="form-group">
                         <label for="_rname">Username</label>
                         <input type="text" name="user_name" id="_rname" class="form-control" placeholder="Name" value="<%= (locals.old_data) ? old_data.user_name : ''; %>" required>
