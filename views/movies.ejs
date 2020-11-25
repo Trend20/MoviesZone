@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- include head -->
+<%- include('partials/head') %>
+<body>
+   <div class="page-contents">
+
+    <!-- include navabar -->
+    <%- include('partials/navbar') %>
+
+   <div class="container">
+
+        <!-- search bar -->
+        <form action="" id="form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search...">
+                <i class="fas fa-search"></i>
+            </div>
+        </form>
+        <!-- end the search bar -->
+
+        <!-- end of first hero container -->
+</div>
+</div>
+
+<!-- movie cards -->
+<div class="container mt-5">
+
+    <h3 class="text-center">Latest Movies</h3>
+    <span id="span"></span>
+    <!-- first row -->
+    <div class="row mt-5" id="movies">
+        <div class="col">
+            <div class="card">
+                <img src="/img/movie1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Action</h3>
+                    <a href="https://www.imdb.com/video/vi769768473?" class="btn btn-danger" download="https://www.imdb.com/video/vi769768473?" target="_blank">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="/img/movie2.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Action</h3>
+                    <a href="https://www.imdb.com/video/vi2085337625?" class="btn btn-danger" download="https://www.imdb.com/video/vi2085337625?" target="_blank">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="/img/movie3.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Action</h3>
+                    <a href="https://www.imdb.com/video/vi330219033?" class="btn btn-danger" download="https://www.imdb.com/video/vi330219033?" target="_blank">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="/img/movie4.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Action</h3>
+                    <a href="https://www.imdb.com/video/vi3264855577?" class="btn btn-danger" download="https://www.imdb.com/video/vi3264855577?" target="_blank">Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- second row -->
+    <div class="row mt-5">
+        <div class="col">
+            <div class="card">
+                <img src="/img/movie5.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Action</h3>
+                    <a href="https://www.imdb.com/video/vi3065429529?" class="btn btn-danger" download="https://www.imdb.com/video/vi3065429529?" target="_blank">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="/img/movie6.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Action</h3>
+                    <a href="https://www.imdb.com/video/vi338738969?" class="btn btn-danger" download="https://www.imdb.com/video/vi338738969?" target="_blank">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="/img/movie7.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Action</h3>
+                    <a href="https://www.imdb.com/video/vi3291659289?" class="btn btn-danger" download="https://www.imdb.com/video/vi3291659289?" target="_blank">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="/img/movie8.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Action</h3>
+                    <a href="https://www.imdb.com/video/vi2689514521?" class="btn btn-danger" download="https://www.imdb.com/video/vi2689514521?" target="_blank">Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- include footer -->
+<%- include('partials/footer') %>
+   </div>
+
+   <script src="/js/main.js"></script>
+</body>
+
+</html>

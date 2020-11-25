@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- include head -->
+<%- include('partials/head') %>
+<body>
+   <div class="page-contents">
+
+    <!-- include navabar -->
+    <%- include('partials/navbar') %>
+
+   <div class="container">
+
+        <!-- first hero container -->
+        <div id="first-hero">
+            <div class="firsthero-text">
+                <h1>Welcome to the Dark Zone</h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Quod ea repudiandae beatae illo fugit distinctio quo atque id? Nihil, voluptates.
+                </p>
+                <button class="btn btn-primary btn-start">Get Started</button>
+            </div>
+
+            <div class="hero-video">
+               <img src="/img/soloman.jpg" alt="movie">
+            </div>
+        </div>
+
+        <!-- end of first hero container -->
+</div>
+
+<div class="second-container">
+    <!-- second hero container -->
+
+    <div id="second-hero">
+
+        <div class="hero-video">
+            <img src="/img/murder.jpg" alt="movie">
+         </div>
+
+        <div class="secondhero-text">
+            <h1>Get the latest action movies</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Quod ea repudiandae beatae illo fugit distinctio quo atque id? Nihil, voluptates.
+            </p>
+            <a href="#movies" class="btn btn-danger btn-download">Download</a>
+        </div>
+    </div>
+
+    <!-- end of second hero container -->
+</div>
+
+<!-- movie cards -->
+<div class="container mt-5">
+
+    <h3 class="text-center">About Us</h3>
+    <span id="span"></span>
+
+    <p class="mt-4 text-center">Here you can get the latest updates on your favourite action movies. </p>
+</div>
+<!-- include footer -->
+<%- include('partials/footer') %>
+   </div>
+
+   <script src="/js/main.js"></script>
+</body>
+
+</html>
